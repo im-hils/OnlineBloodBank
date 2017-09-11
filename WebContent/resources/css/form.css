@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*style sheet for Explore California forms
+
+©2010 lynda.com
+This style sheet may be reused for personal education only
+any reuse, educational or otherwise, without the expressed 
+consent of lynda.com is prohibited.*/
+
+
+/* to jump to a specific section search for the unique character pair at the front of each TOC section 
+	<<<tip, highlight the special character and use the shortcut for Find Selection Cntr/Cmd + Shift + G >> */
+
+/* ^1 --------------------------- global constants -------------------------*/
+html, body {
+	margin: 20px;
+	margin-top:0px;
+	padding: 0px;
+}
+
+body {
+	text-align:center;
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	background: #e1d8b9 url(../_images/page_background.jpg) repeat-x;
+	margin-top: 25px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* ^2 --------------- limited-scale reset ---------------- */
+h1, h2, h3, h4, h5, h6, p, address, blockquote, div, ul, li {
+	margin: 0;
+	padding: 0;
+	text-align:left;
+}
+p {
+	color:#333;
+	line-height:1.8;
+	margin-bottom: 1em;
+}
+h1 {
+	font-size: 2em;
+	color: #193742;
+	margin-bottom: .4em;
+}
+h2 {
+	font-size: 1.6em;
+	color: #51341a;
+	font-weight: normal;
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+}
+h1 {
+	clear: both;
+}
+a:link, a:visited {
+	color: #995522;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #cb7d20;
+	border-bottom: 1px dashed #cb7d20;
+}
+a.accent {
+	display: block;
+	text-align: right;
+}
+a.accent:hover {
+ 	border: none;
+	color: #cb202a;
+}
+/* ^3 ------ global classes -------- */
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}
+.clearRight {
+	clear: right;
+}
+.clearLeft {
+	clear: left;
+}
+.clearBoth {
+	clear: both;
+}
+.callOut {
+	background: #e1d8b9;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+.callOut h1 {
+	font-size: 1.2em;
+	color: #193742;
+	border-bottom: 2px solid #193742;
+	margin-bottom: .5em;
+	padding-bottom: .25em;
+}
+.quote {
+	font-style: italic;
+}
+#wrapper {
+ 	position: relative;
+	padding: 0;
+	width: 930px;
+	margin: 0 auto;
+	background: #fff;
+	text-align: left;
+}
+
+/* mainContent */
+#mainContent {
+	padding-right: 25px;
+	float: left;
+	width: 608px;
+	margin-bottom: 45px;
+}
+/* form styling ^6f */
+#mainContent form {
+	font: normal .9em Arial, Helvetica, sans-serif;
+	color: #193742;
+}
+#mainContent fieldset {
+	background-color: #e1d8b9;
+	border: none;
+	position: relative;
+	float: left;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 2em;
+	margin-left: 0;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+}
+#mainContent fieldset legend {
+	margin: 0;
+	color: #51341a;
+}
+#mainContent legend strong {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+#mainContent form label{
+	width: 100px;
+	float: left;
+	clear: left;
+	margin-right: .75em;
+}
+#explorerFieldset {
+	width: 450px;
+}
+#loginFieldset {
+	width: 400px;
+}
